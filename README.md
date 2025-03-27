@@ -1,9 +1,9 @@
 # finbert-sentiment-analysis
-#End-to-End sentiment analysis MLOPs project 
-##Overview
+# End-to-End sentiment analysis MLOPs project 
+## Overview
 This project provides a sentiment analysis tool specifically designed for financial texts using the FinBERT model. It's built to process and analyze sentiment in financial news, reports, and other related content, helping users gauge market sentiment from textual data.
 
-##Project Structure
+## Project Structure <br>
 The repository is organized as follows:
 
 = `finbert-sentiment-analysis/`
