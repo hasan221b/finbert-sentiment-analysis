@@ -6,20 +6,21 @@ This project provides a sentiment analysis tool specifically designed for financ
 ##Project Structure
 The repository is organized as follows:
 
-finbert-sentiment-analysis/
-├── config/             - Configuration files
-├── data/               - Sample datasets
-├── log/                - Application and model logs
-├── src/                - Main source code
-│   ├── api/            - API implementation
-│   ├── models/         - Model-related code
-│   ├── processing/     - Text preprocessing
-│   ├── schemas/        - Data models
-│   └── utils/          - Utility functions
-├── tests/              - Test cases
-├── Dockerfile          - Docker configuration
-├── requirements.txt    - Python dependencies
-└── README.md           - This file
+= `finbert-sentiment-analysis/`
+ - `config/` - Configuration files  
+ - `data/` - Sample datasets  
+ - `log/` - Application and model logs  
+ - `models/` - Saved model and tokenizer  
+ - `src/` - Main source code  
+   - `api/` - API implementation  
+   - `models/` - Model-related code  
+   - `processing/` - Text preprocessing  
+   - `schemas/` - Data models  
+   - `utils/` - Utility functions  
+ - `tests/` - Test cases  
+ - `Dockerfile` - Docker configuration  
+ - `requirements.txt` - Python dependencies  
+ - `README.md` - Project documentation  
 
 ##Features
 1. Pre-trained FinBERT model for financial sentiment analysis
