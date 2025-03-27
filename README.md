@@ -22,30 +22,31 @@ The repository is organized as follows:
  - `requirements.txt` - Python dependencies  
  - `README.md` - Project documentation  
 
-##Features
+## Features
 1. Pre-trained FinBERT model for financial sentiment analysis
 2. Custom text preprocessing for financial texts
 3. REST API endpoint for sentiment analysis
 4. Comprehensive logging system
 5. Docker support for easy deployment
 
-##Getting Started
-###Prerequisites
+## Getting Started
+### Prerequisites<br>
+
 Python 3.9 or higher
 
-###Installation
+### Installation
 1. Clone the repository:
 ```
 git clone https://github.com/hasan221b/finbert-sentiment-analysis.git
 cd finbert-sentiment-analysis
 ```
 
-###Install dependencies:
+### Install dependencies:
 
 ```
 pip install -r requirements.txt
 ```
-###Running the Application
+### Running the Application
 
 To start the API service locally:
 
@@ -53,7 +54,7 @@ To start the API service locally:
 uvicorn src.api.app:app --reload
 ```
 
-###Usage
+### Usage
 The API provides a single endpoint for sentiment analysis:
 
 ```
@@ -74,14 +75,14 @@ Example response:
     "confidence": 0.92
 }
 ```
-###Testing
+### Testing
 Run the test suite with:
 
 ```
 python -m pytest tests/
 ```
 
-###Configuration
+### Configuration
 
 Modify config/config.yml to adjust:
 
@@ -91,5 +92,5 @@ Modify config/config.yml to adjust:
 
 3. API configurations
 
-###Contributing
+### Contributing
 Contributions are welcome. Please fork the repository and submit a pull request with your changes.
