@@ -1,0 +1,152 @@
+[2025-03-14 10:12:26,257] - INFO - Initializing FinBERT model..
+[2025-03-14 10:12:30,844] - ERROR - Failed to load FinBERT model: models/saved_finebert_tokenizer is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`
+[2025-03-14 10:16:09,454] - INFO - Initializing FinBERT model..
+[2025-03-14 10:16:37,182] - ERROR - Failed to load FinBERT model: models/saved_finebert_tokenizer is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`
+[2025-03-14 10:21:44,257] - INFO - Initializing FinBERT model..
+[2025-03-14 10:21:46,913] - ERROR - Failed to load FinBERT model: models/saved_finebert_tokenizer is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`
+[2025-03-14 10:22:39,398] - INFO - Initializing FinBERT model..
+[2025-03-14 10:22:39,399] - ERROR - Failed to load FinBERT model: Incorrect path_or_model_id: '/models/saved_finbert_model'. Please provide either the path to a local folder or the repo_id of a model on the Hub.
+[2025-03-14 10:23:55,351] - INFO - Initializing FinBERT model..
+[2025-03-14 10:23:55,351] - ERROR - Failed to load FinBERT model: Incorrect path_or_model_id: '/models/saved_finbert_model'. Please provide either the path to a local folder or the repo_id of a model on the Hub.
+[2025-03-14 10:24:54,473] - INFO - Initializing FinBERT model..
+[2025-03-14 10:24:56,532] - ERROR - Failed to load FinBERT model: Incorrect path_or_model_id: 'models/saved_finebert_tokenizer/'. Please provide either the path to a local folder or the repo_id of a model on the Hub.
+[2025-03-14 10:34:19,492] - INFO - Initializing FinBERT model..
+[2025-03-14 10:34:22,198] - INFO - Model initialization succeeded
+[2025-03-14 10:35:07,797] - INFO - Predicting sentiment for the text: i love this service so much...
+[2025-03-14 10:35:07,797] - ERROR - Failed to make prediction: 'FinBertInference' object has no attribute 'tokenizer'
+[2025-03-14 10:38:42,365] - INFO - Initializing FinBERT model..
+[2025-03-14 10:38:44,277] - INFO - Model initialization succeeded
+[2025-03-14 10:38:48,628] - INFO - Predicting sentiment for the text: i love this service so much...
+[2025-03-14 10:38:48,628] - ERROR - Failed to make prediction: 'FinBertInference' object has no attribute 'tokenizer'
+[2025-03-14 10:40:57,954] - INFO - Initializing FinBERT model..
+[2025-03-14 10:40:59,941] - INFO - Model initialization succeeded
+[2025-03-14 10:40:59,941] - INFO - Predicting sentiment for the text: i love this service so much...
+[2025-03-14 10:41:05,814] - INFO - Prediction: neutral (Confidence: 0.7546)
+[2025-03-14 10:41:05,832] - INFO - Calculating compound score for the text...
+[2025-03-14 10:41:05,832] - ERROR - Failed to calculate compound: 'Logger' object is not callable
+[2025-03-14 10:42:33,028] - INFO - Initializing FinBERT model..
+[2025-03-14 10:42:35,924] - INFO - Model initialization succeeded
+[2025-03-14 10:42:35,943] - INFO - Predicting sentiment for the text: i love this service so much...
+[2025-03-14 10:42:37,826] - INFO - Prediction: neutral (Confidence: 0.7546)
+[2025-03-14 10:42:37,826] - INFO - Calculating compound score for the text...
+[2025-03-14 10:42:37,826] - INFO - Compound score: 0.05466389703269395
+[2025-03-14 10:43:01,934] - INFO - Initializing FinBERT model..
+[2025-03-14 10:43:04,077] - INFO - Model initialization succeeded
+[2025-03-14 10:43:04,087] - INFO - Predicting sentiment for the text: i love this service so much...
+[2025-03-14 10:43:05,637] - INFO - Prediction: neutral (Confidence: 0.7546)
+[2025-03-14 10:43:05,637] - INFO - Calculating compound score for the text...
+[2025-03-14 10:43:05,637] - INFO - Compound score: 0.05466389703269395
+[2025-03-14 10:43:05,637] - INFO - Calculating rank score for text...
+[2025-03-14 10:47:07,028] - INFO - Initializing FinBERT model..
+[2025-03-14 10:47:10,236] - INFO - Model initialization succeeded
+[2025-03-14 10:47:12,807] - INFO - Predicting sentiment for the text: i love this service so much...
+[2025-03-14 10:47:15,867] - INFO - Prediction: neutral (Confidence: 0.7546)
+[2025-03-14 10:47:15,868] - INFO - Calculating compound score for the text...
+[2025-03-14 10:47:15,868] - INFO - Compound score: 0.05466389703269395
+[2025-03-14 10:47:15,868] - INFO - Calculating rank score for text...
+[2025-03-14 10:48:44,658] - INFO - Initializing FinBERT model..
+[2025-03-14 10:48:46,656] - INFO - Model initialization succeeded
+[2025-03-14 10:48:46,666] - INFO - Predicting sentiment for the text: i love this service so much...
+[2025-03-14 10:48:48,634] - INFO - Prediction: neutral (Confidence: 0.7546)
+[2025-03-14 10:48:48,634] - INFO - Calculating compound score for the text...
+[2025-03-14 10:48:48,634] - INFO - Compound score: 0.05466389703269395
+[2025-03-14 10:48:48,634] - INFO - Calculating rank score for text...
+[2025-03-14 10:49:11,570] - INFO - Initializing FinBERT model..
+[2025-03-14 10:49:13,366] - INFO - Model initialization succeeded
+[2025-03-14 10:49:13,377] - INFO - Predicting sentiment for the text: i love this service so much...
+[2025-03-14 10:49:14,824] - INFO - Prediction: neutral (Confidence: 0.7546)
+[2025-03-14 10:49:14,825] - INFO - Calculating compound score for the text...
+[2025-03-14 10:49:14,825] - INFO - Compound score: 0.05466389703269395
+[2025-03-14 10:49:14,825] - INFO - Calculating rank score for text...
+[2025-03-14 10:51:36,252] - INFO - Initializing FinBERT model..
+[2025-03-14 10:51:38,329] - INFO - Model initialization succeeded
+[2025-03-14 10:51:48,260] - INFO - Predicting sentiment for the text: i love this service so much...
+[2025-03-14 10:51:50,289] - INFO - Prediction: neutral (Confidence: 0.7546)
+[2025-03-14 10:51:50,289] - INFO - Calculating compound score for the text...
+[2025-03-14 10:51:50,289] - INFO - Compound score: 0.05466389703269395
+[2025-03-14 10:51:50,289] - INFO - Calculating rank score for text...
+[2025-03-14 10:59:33,709] - INFO - Initializing FinBERT model..
+[2025-03-14 10:59:36,338] - INFO - Model initialization succeeded
+[2025-03-14 11:00:54,773] - INFO - Initializing FinBERT model..
+[2025-03-14 11:00:57,055] - INFO - Model initialization succeeded
+[2025-03-14 11:00:57,379] - INFO - Initializing FinBERT model..
+[2025-03-14 11:00:57,763] - INFO - Model initialization succeeded
+[2025-03-14 11:00:57,773] - INFO - Initializing FinBERT model..
+[2025-03-14 11:00:57,923] - INFO - Model initialization succeeded
+[2025-03-14 11:00:57,926] - INFO - Predicting sentiment for the text: ilove this product its amaizing...
+[2025-03-14 11:01:00,417] - INFO - Prediction: neutral (Confidence: 0.7385)
+[2025-03-14 11:01:00,417] - INFO - Calculating compound score for the text...
+[2025-03-14 11:01:00,417] - INFO - Compound score: 0.057179935017202276
+[2025-03-14 11:01:00,417] - INFO - Calculating rank score for text...
+[2025-03-14 11:07:26,133] - INFO - Initializing FinBERT model..
+[2025-03-14 11:07:29,424] - INFO - Initializing FinBERT model..
+[2025-03-14 11:07:30,248] - INFO - Model initialization succeeded
+[2025-03-14 11:07:32,373] - INFO - Model initialization succeeded
+[2025-03-14 11:07:32,450] - INFO - Predicting sentiment for the text: this is a fantastic product...
+[2025-03-14 11:07:34,570] - INFO - Prediction: neutral (Confidence: 0.5162)
+[2025-03-14 11:07:34,575] - INFO - Calculating compound score for the text...
+[2025-03-14 11:07:34,575] - INFO - Compound score: 0.11269063146413717
+[2025-03-14 11:07:34,575] - INFO - Calculating rank score for text...
+[2025-03-14 11:07:34,611] - INFO - Initializing FinBERT model..
+[2025-03-14 11:07:34,851] - INFO - Model initialization succeeded
+[2025-03-14 11:07:34,865] - INFO - Initializing FinBERT model..
+[2025-03-14 11:07:35,040] - INFO - Model initialization succeeded
+[2025-03-14 11:07:35,042] - INFO - Predicting sentiment for the text: ilove this product its amaizing...
+[2025-03-14 11:07:35,353] - INFO - Prediction: neutral (Confidence: 0.7385)
+[2025-03-14 11:07:35,354] - INFO - Calculating compound score for the text...
+[2025-03-14 11:07:35,354] - INFO - Compound score: 0.057179935017202276
+[2025-03-14 11:07:35,354] - INFO - Calculating rank score for text...
+[2025-03-14 11:14:52,368] - INFO - Initializing FinBERT model..
+[2025-03-14 11:14:55,528] - INFO - Model initialization succeeded
+[2025-03-14 11:15:13,148] - INFO - Initializing FinBERT model..
+[2025-03-14 11:15:16,513] - INFO - Model initialization succeeded
+[2025-03-14 11:15:20,361] - INFO - Initializing FinBERT model..
+[2025-03-14 11:15:23,413] - INFO - Model initialization succeeded
+[2025-03-14 11:15:23,553] - INFO - Predicting sentiment for the text: this is a fantastic product...
+[2025-03-14 11:15:26,382] - INFO - Prediction: neutral (Confidence: 0.5162)
+[2025-03-14 11:15:26,382] - INFO - Calculating compound score for the text...
+[2025-03-14 11:15:26,382] - INFO - Compound score: 0.11269063146413717
+[2025-03-14 11:15:26,382] - INFO - Calculating rank score for text...
+[2025-03-14 11:15:26,442] - INFO - Initializing FinBERT model..
+[2025-03-14 11:15:26,868] - INFO - Model initialization succeeded
+[2025-03-14 11:15:26,878] - INFO - Initializing FinBERT model..
+[2025-03-14 11:15:27,128] - INFO - Model initialization succeeded
+[2025-03-14 11:15:27,133] - INFO - Predicting sentiment for the text: ilove this product its amaizing...
+[2025-03-14 11:15:27,563] - INFO - Prediction: neutral (Confidence: 0.7385)
+[2025-03-14 11:15:27,563] - INFO - Calculating compound score for the text...
+[2025-03-14 11:15:27,563] - INFO - Compound score: 0.057179935017202276
+[2025-03-14 11:15:27,563] - INFO - Calculating rank score for text...
+[2025-03-14 11:35:36,548] - INFO - Initializing FinBERT model..
+[2025-03-14 11:35:39,918] - INFO - Model initialization succeeded
+[2025-03-14 11:35:40,037] - INFO - Predicting sentiment for the text: i love this service so much...
+[2025-03-14 11:35:43,476] - INFO - Prediction: neutral (Confidence: 0.7546)
+[2025-03-14 11:35:43,476] - INFO - Calculating compound score for the text...
+[2025-03-14 11:35:43,476] - INFO - Compound score: 0.05466389703269395
+[2025-03-14 11:35:43,476] - INFO - Calculating rank score for text...
+[2025-03-14 11:36:04,123] - INFO - Initializing FinBERT model..
+[2025-03-14 11:36:08,273] - INFO - Model initialization succeeded
+[2025-03-14 11:36:08,338] - INFO - Initializing FinBERT model..
+[2025-03-14 11:36:08,723] - INFO - Model initialization succeeded
+[2025-03-14 11:36:08,784] - INFO - Initializing FinBERT model..
+[2025-03-14 11:36:09,377] - INFO - Model initialization succeeded
+[2025-03-14 11:36:09,440] - INFO - Initializing FinBERT model..
+[2025-03-14 11:36:09,673] - INFO - Model initialization succeeded
+[2025-03-14 11:36:09,688] - INFO - Predicting sentiment for the text: this is a fantastic product...
+[2025-03-14 11:36:12,863] - INFO - Prediction: neutral (Confidence: 0.5162)
+[2025-03-14 11:36:12,863] - INFO - Calculating compound score for the text...
+[2025-03-14 11:36:12,864] - INFO - Compound score: 0.11269063146413717
+[2025-03-14 11:36:12,864] - INFO - Calculating rank score for text...
+[2025-03-14 11:36:12,879] - INFO - Initializing FinBERT model..
+[2025-03-14 11:36:13,163] - INFO - Model initialization succeeded
+[2025-03-14 11:36:13,177] - INFO - Initializing FinBERT model..
+[2025-03-14 11:36:13,363] - INFO - Model initialization succeeded
+[2025-03-14 11:36:13,377] - INFO - Initializing FinBERT model..
+[2025-03-14 11:36:13,563] - INFO - Model initialization succeeded
+[2025-03-14 11:36:13,566] - INFO - Predicting sentiment for the text: i love this product its amazing...
+[2025-03-14 11:36:13,875] - INFO - Prediction: neutral (Confidence: 0.8324)
+[2025-03-14 11:36:13,875] - INFO - Calculating compound score for the text...
+[2025-03-14 11:36:13,875] - INFO - Compound score: 0.03664835777404273
+[2025-03-14 11:36:13,875] - INFO - Calculating rank score for text...

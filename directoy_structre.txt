@@ -1,0 +1,42 @@
+finbert-sentiment-analysis/
+├── .dockerignore
+├── Dockerfile
+├── requirements.txt
+├── README.md
+├── config/
+│   └── config.yml
+├── log/
+│   ├── app.log
+│   ├── model.log
+|   ├── preprocessing.log
+|   └──api.log
+├── models/
+│   ├── saved_finbert_model/
+│   └── saved_finbert_tokenizer/
+├── src/
+│   ├── __init__.py
+│   ├── models/
+│   │   ├── __init__.py
+│   │   └── finbert_model.py
+│   ├── processing/
+│   │   ├── __init__.py
+│   │   └── preprocess.py
+│   ├── utils/
+│   │   ├── __init__.py
+│   │   ├── logger.py
+|       ├── config.py
+│   │   └── file_handlers.py    
+│   ├── schemas/
+│   │   ├── __init__.py
+│   │   └── data_models.py     
+|   ├── api/
+│   │   ├── __init__.py
+│   │   └── app.py
+├── tests/
+│   ├── __init__.py
+│   ├── test_api.py
+│   └── test_model.py
+│       
+└── data/
+    └── news.csv
+

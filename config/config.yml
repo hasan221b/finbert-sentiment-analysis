@@ -1,0 +1,16 @@
+model:
+  model_path: "models/saved_finbert_model/"
+  tokenizer_path: "models/saved_finbert_tokenizer/"
+
+api:
+  host: "0.0.0.0"
+  port: 8000
+
+logging:
+  level: "INFO"
+  api_log_file: "logs/api.log"
+  model_log_file: "logs/model.log"
+  preprocessing_log_file: "logs/preprocessing.log"
+  app_log_file: "logs/app.log"
+  format: "[%(asctime)s] - %(levelname)s - %(message)s"
+  datefmt: "%Y-%m-%d %H:%M:%S"
